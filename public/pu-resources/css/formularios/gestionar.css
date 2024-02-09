@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+
+.wallpaper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wall-2{
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 74%;
+}
+
+.wall-2 img{
+    height: 95vh;
+}
+
+.content{
+    width: 30%;
+    height: 80vh;
+    background-color: #4A1985;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.logo{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #260656;
+    border-radius: 20px 20px 0 0;
+}
+
+.logo img{
+    height: 10vh;
+}
+
+.formulario{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campos{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.campo-fecha-inicial,
+.campo-fecha-actualizada,
+.campo-cultivo,
+.campo-cantidad {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: #f1faee;
+}
+
+.input-fecha-inicial,
+.input-fecha-actualizada,
+.input-cultivo,
+.input-cantidad {
+    width: 40vh;
+    padding: 8px;
+    font-size: 16px;
+    border: 3px solid #a580ca;
+    background-color: #f1faee;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.label {
+    color: #a580ca;
+    margin-bottom: 5px;
+}
+
+
+.btn{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.guardar {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #a580ca;
+    color: #f1faee;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 3vh;
+}
+
+.guardar:hover{
+    transform: scale(1.1);
+    color: #a580ca;
+    background-color: #f1faee;
+    border: 3px solid #a580ca;
+}
+
+.texto{
+    color: #f1faee;
+}

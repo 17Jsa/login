@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+
+.wallpaper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wall-2 {
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: -74%;
+}
+
+.wall-2 img {
+    height: 95vh;
+}
+
+.icon {
+    width: 15%;
+    height: 50vh;
+    background-color: #2b241e;
+    border-radius: 0 25px 25px 0;
+    margin-bottom: 2%;
+}
+
+.content {
+    width: 30%;
+    height: 60vh;
+    background-color: #ffba00;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.imagen {
+    width: 100%;
+    height: 48vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen img {
+    height: 20vh;
+}
+
+.texto {
+    height: 2vh;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: #ffba00;
+}
+
+.logo {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 10vh;
+}
+
+.formulario {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campos {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parte-1 {
+    display: flex;
+}
+
+.input-peso {
+    width: 40vh;
+    padding: 8px;
+    font-size: 16px;
+    border: 3px solid #2b241e;
+    background-color: #ececec;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-right: 1vh;
+}
+
+.campo-fecha {
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.campo-fecha label {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+
+.input-fecha {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 3px solid #2b241e;
+    background-color: #ececec;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.input-cliente {
+    width: 40vh;
+    padding: 8px;
+    font-size: 16px;
+    border: 3px solid #2b241e;
+    background-color: #ececec;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.campo-entrega {
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.campo-entrega label {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.input-entrega {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 3px solid #2b241e;
+    background-color: #ececec;
+    border-radius: 25px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+.contra {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.guardar {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #2b241e;
+    color: #ececec;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.guardar:hover {
+    transform: scale(1.1);
+    color: #2b241e;
+    background-color: #ececec;
+    border: 3px solid #2b241e;
+}
